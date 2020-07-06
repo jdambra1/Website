@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  font-family: abel;
+  background-image: url("IMG/CapeTown.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav {
+  display: flex;
+  background-color: grey;
+  color: black;
+}
+
+.nav-link {
+  padding: 8px 12px;
+}
+
+h1 {
+  position: relative;
+  left: 60px;
+  top: 30px;
+  width: 500px;
+}
+
+.subheading {
+  position: relative;
+  right: 120px;
+  top: 70px;
+}
+
+ul {
+  list-style-type: none;
+  flex: stretch;
+  display: inline-block;
+}
+.navbar {
+  border: solid grey 2px;
+  border-radius: 5px;
+  background-color: grey;
+  position: relative;
+  top: 40px;
+  left: 100px;
+  height: 40px;
+  width: 800px;
+}
+
+.home {
+  position: relative;
+  top: 10px;
+}
+
+.portfolio {
+  position: relative;
+  left: 50px;
+  bottom: 11px;
+}
+
+.store {
+  position: relative;
+  left: 120px;
+  bottom: 32px;
+}
+
+.clients {
+  position: relative;
+  left: 170px;
+  bottom: 53px;
+}
+
+.bio {
+  position: relative;
+  left: 232px;
+  bottom: 74px;
+}
+
+.blog {
+  position: relative;
+  left: 270px;
+  bottom: 95px;
+}
+
+.contact {
+  position: relative;
+  left: 321px;
+  bottom: 116px;
+}
+
+.end {
+  border: solid grey 2px;
+  position: relative;
+  top: 800px;
+  right: 691px;
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+}
+
+.instagram {
+  position: relative;
+  left: 300px;
+  bottom: 20px;
+}
+
+.facebook {
+  position: relative;
+  left: 500px;
+  bottom: 40px;
+  margin: 0px;
+  padding: 0px;
+}
